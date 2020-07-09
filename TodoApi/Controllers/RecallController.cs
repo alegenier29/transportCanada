@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using TransportCanada.API3.Models;
-using TransportCanada.Models;
 
 namespace TransportCanada.API3.Controllers
 {
-        
+
     [Route("api/[controller]")]
     [ApiController]
     public class RecallController : ControllerBase
@@ -30,22 +26,28 @@ namespace TransportCanada.API3.Controllers
         // GET: api/Recall
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Recall>>> GetRecalls()
-        {
+        {        
+            
             return await _context.Recalls.ToListAsync();
         }
 
-        // GET: api/Recall/5
+        // GET: api/Recall/1
         [HttpGet("{recallNumber}")]
         public async Task<ActionResult<Recall>> GetRecall(string recallNumber)
         {
-            var recall = await _context.Recalls.FindAsync(recallNumber);
 
-            if (recall == null)
-            {
-                return NotFound();
-            }
+            string fileName = "data.json";
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\json", fileName);
+            string json = System.IO.File.ReadAllText(filePath);
 
-            return recall;
+            List<Recall> recallsFull = JsonConvert.DeserializeObject<List<Recall>>(json);
+            List<Recall> recalls = recallsFull.Where(x => x.recallNumber.Equals(recallNumber)).ToList();
+
+
+           // _context.Recalls.AddRange(recallsFull);
+           await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetRecall", recalls);
         }
 
         // PUT: api/Recall/5
@@ -80,25 +82,13 @@ namespace TransportCanada.API3.Controllers
             return NoContent();
         }
 
-        // POST: api/Recall
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        //[HttpPost]
-        //public async Task<ActionResult<Recall>> PostRecall(Recall recall)
-        //{
-        //    _context.Recalls.Add(recall);
-        //    await _context.SaveChangesAsync();
-
-        //    return CreatedAtAction("GetRecall", new { recallNumber = recall.recallNumber }, recall);
-        //}
-
+  
 
         // POST: api/Recalls
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
         [Consumes(System.Net.Mime.MediaTypeNames.Application.Json)]
-        //[Produces(System.Net.Mime.MediaTypeNames.Application.Json)]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<Recall>> PostRecalls(List<Recall> recalls)
@@ -153,10 +143,11 @@ namespace TransportCanada.API3.Controllers
             }
 
 
-            _context.Recalls.AddRange(recalls);
-            await _context.SaveChangesAsync();
+            //_context.Recalls.AddRange(recalls);
+            //await _context.SaveChangesAsync();
 
-            return CreatedAtAction("PostRecalls", recalls);
+            return Ok();
+            //return CreatedAtAction("PostRecalls", recalls);
         }
 
 
