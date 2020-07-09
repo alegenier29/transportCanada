@@ -1,0 +1,26 @@
+[
+  {
+    "recallNumber": "2015321",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EXPLORER",
+    "recallYear": "2016",
+    "MANUFACTURER_RECALL_NO_TXT": "16S17",
+    "CATEGORY_ETXT": "Truck - Med. & H.D.",
+    "CATEGORY_FTXT": "Camion - usage moyen et usage intensif",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2015322",
+    "manufactureName": "FORD",
+    "makeName": "DOGGE",
+    "modelName": "NEON",
+    "recallYear": "2016",
+    "MANUFACTURER_RECALL_NO_TXT": "16S17",
+    "CATEGORY_ETXT": "Truck - Med. & H.D.",
+    "CATEGORY_FTXT": "Camion - usage moyen et usage intensif",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  }
+]

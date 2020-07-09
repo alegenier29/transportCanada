@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using TransportCanada.API3.Models;
 using TransportCanada.Models;
 
@@ -138,12 +141,28 @@ namespace TransportCanada.API3.Controllers
 
             }
 
+            JsonSerializerSettings settings = new JsonSerializerSettings();
+            settings.NullValueHandling = NullValueHandling.Ignore;
+            string json = JsonConvert.SerializeObject(recalls, Formatting.Indented,settings);
+            string fileName = "data.json";
+
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\json", fileName);
+            using (StreamWriter writer = System.IO.File.CreateText(filePath))
+            {
+                writer.WriteLine(json);
+            }
+
 
             _context.Recalls.AddRange(recalls);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("PostRecalls", recalls);
         }
+
+
+    
+
+        
 
 
         // DELETE: api/Recall/5
