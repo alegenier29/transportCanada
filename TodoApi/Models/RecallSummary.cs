@@ -2,7 +2,7 @@
 {
     public class RecallSummary
     {
-        public string Name;
-        public RecallValue Value;
+        public string Name { get; set; }
+        public RecallValue Value { get; set; }
     }
 }

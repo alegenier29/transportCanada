@@ -7,7 +7,7 @@ namespace TransportCanada.API3.Models
     {
         [Key]
         public string recallNumber { get; set; }
-        public string manufacterName { get; set; }
+        public string manufactureName { get; set; }
         public string makeName { get; set; }
         public string modelName { get; set; }
         public string recallYear { get; set; }
@@ -21,8 +21,8 @@ namespace TransportCanada.API3.Models
         [JsonProperty(PropertyName = "CATEGORY_FTXT")]// "Camion - usage moyen et usage intensif"
         public string CATEGORY_FTXT { get; set; }
 
-        [JsonProperty(PropertyName = "SYSTEM_TYPE_ETX")]// "Tires"
-        public string SYSTEM_TYPE_ETX { get; set; }
+        [JsonProperty(PropertyName = "SYSTEM_TYPE_ETXT")]// "Tires"
+        public string SYSTEM_TYPE_ETXT { get; set; }
 
         [JsonProperty(PropertyName = "SYSTEM_TYPE_FTXT")]//"Pneus"
         public string SYSTEM_TYPE_FTXT { get; set; }

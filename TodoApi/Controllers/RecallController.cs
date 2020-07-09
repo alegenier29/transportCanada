@@ -1,12 +1,18 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using TransportCanada.API3.Models;
+using TransportCanada.Models;
 
 namespace TransportCanada.API3.Controllers
 {
+        
     [Route("api/[controller]")]
     [ApiController]
     public class RecallController : ControllerBase
@@ -74,14 +80,71 @@ namespace TransportCanada.API3.Controllers
         // POST: api/Recall
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        //[HttpPost]
+        //public async Task<ActionResult<Recall>> PostRecall(Recall recall)
+        //{
+        //    _context.Recalls.Add(recall);
+        //    await _context.SaveChangesAsync();
+
+        //    return CreatedAtAction("GetRecall", new { recallNumber = recall.recallNumber }, recall);
+        //}
+
+
+        // POST: api/Recalls
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for
+        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Recall>> PostRecall(Recall recall)
+        [Consumes(System.Net.Mime.MediaTypeNames.Application.Json)]
+        //[Produces(System.Net.Mime.MediaTypeNames.Application.Json)]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<Recall>> PostRecalls(List<Recall> recalls)
         {
-            _context.Recalls.Add(recall);
+
+            if (recalls == null || !recalls.Any())
+            {
+                return BadRequest("No body Content");
+            }
+
+
+            HttpClient client = new HttpClient();
+            client.DefaultRequestHeaders.Add("Accept", "application/json");
+            client.DefaultRequestHeaders.Add("User-Agent", "API3");
+
+            string api = "http://data.tc.gc.ca/v1.3/api/eng/vehicle-recall-database";
+            string action = "recall-summary";
+            string variableName = "recall-number";
+            string query = "format=json";
+
+
+            foreach (var recall in recalls)
+            {
+
+                string recallNumber = recall.recallNumber;
+
+                if (!string.IsNullOrWhiteSpace(recallNumber)) 
+                { 
+                    string path = string.Format("{0}/{1}/{2}/{3}?{4}", api, action,variableName,recallNumber, query);
+                    HttpResponseMessage responseJson = await client.GetAsync(path);
+                    if (responseJson.IsSuccessStatusCode)
+                    {
+                        string recallSummary = await responseJson.Content.ReadAsStringAsync();
+                        var response = JsonConvert.DeserializeObject<TransportCanada.Models.Response>(recallSummary);
+                        recall.SYSTEM_TYPE_FTXT = response.ResultSet.First().Where(x => x.Name.Equals("SYSTEM_TYPE_FTXT")).FirstOrDefault()?.Value.Literal;
+                        recall.SYSTEM_TYPE_ETXT = response.ResultSet.First().Where(x => x.Name.Equals("SYSTEM_TYPE_ETXT")).FirstOrDefault()?.Value.Literal;
+
+                    }
+                }
+
+            }
+
+
+            _context.Recalls.AddRange(recalls);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetRecall", new { recallNumber = recall.recallNumber }, recall);
+            return CreatedAtAction("PostRecalls", recalls);
         }
+
 
         // DELETE: api/Recall/5
         [HttpDelete("{recallNumber}")]
@@ -92,6 +155,8 @@ namespace TransportCanada.API3.Controllers
             {
                 return NotFound();
             }
+
+            
 
             _context.Recalls.Remove(recall);
             await _context.SaveChangesAsync();
