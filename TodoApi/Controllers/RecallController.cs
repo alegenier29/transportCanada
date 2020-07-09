@@ -47,7 +47,7 @@ namespace TransportCanada.API3.Controllers
            // _context.Recalls.AddRange(recallsFull);
            await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetRecall", recalls);
+            return CreatedAtAction("GetRecall", recalls.First());
         }
 
         // PUT: api/Recall/5
@@ -143,11 +143,11 @@ namespace TransportCanada.API3.Controllers
             }
 
 
-            //_context.Recalls.AddRange(recalls);
-            //await _context.SaveChangesAsync();
+            _context.Recalls.AddRange(recalls);
+            await _context.SaveChangesAsync();
 
-            return Ok();
-            //return CreatedAtAction("PostRecalls", recalls);
+           
+            return CreatedAtAction("PostRecalls", recalls);
         }
 
 
