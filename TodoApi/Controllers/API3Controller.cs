@@ -11,9 +11,9 @@ using System;
 namespace TransportCanada.API3.Controllers
 {
 
-    [Route("api/[controller]")]
+    [Route("tc/[controller]")]
     [ApiController]
-    public class RecallController : ControllerBase
+    public class API3Controller : ControllerBase
     {
         
 
