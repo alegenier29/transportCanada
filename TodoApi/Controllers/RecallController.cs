@@ -37,9 +37,13 @@ namespace TransportCanada.API3.Controllers
         {
 
             string fileName = "data.json";
-            var filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\json", fileName);
-            string json = System.IO.File.ReadAllText(filePath);
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\json", fileName);
+            string json = "";
+            if (System.IO.File.Exists(filePath))
+            {
+                json = System.IO.File.ReadAllText(filePath);
 
+            }
             List<Recall> recallsFull = JsonConvert.DeserializeObject<List<Recall>>(json);
             List<Recall> recalls = recallsFull.Where(x => x.recallNumber.Equals(recallNumber)).ToList();
 
@@ -49,6 +53,32 @@ namespace TransportCanada.API3.Controllers
 
             return CreatedAtAction("GetRecall", recalls.First());
         }
+
+
+
+        // GET: api/Recall/SystemType/Brakes
+        [HttpGet("SystemType/{systemType}")]
+        public async Task<ActionResult<Recall>> GetRecallsFromSystemType(string systemType)
+        {
+
+            string fileName = "data.json";
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\json", fileName);
+            string json = "";
+            if (System.IO.File.Exists(filePath))
+            {
+                json = System.IO.File.ReadAllText(filePath);
+
+            }
+            List<Recall> recallsFull = JsonConvert.DeserializeObject<List<Recall>>(json);
+            List<Recall> recalls = recallsFull.Where(x => x.SYSTEM_TYPE_ETXT.Equals(systemType) || x.SYSTEM_TYPE_FTXT.Equals(systemType))?.ToList();
+
+
+            // _context.Recalls.AddRange(recallsFull);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetRecallsFromSystemType", recalls);
+        }
+
 
         // PUT: api/Recall/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for

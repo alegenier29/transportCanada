@@ -7,9 +7,13 @@ namespace TransportCanada.API3.Models
     {
         [Key]
         public string recallNumber { get; set; }
+        
         public string manufactureName { get; set; }
+        
         public string makeName { get; set; }
+      
         public string modelName { get; set; }
+       
         public string recallYear { get; set; }
 
         [JsonProperty(PropertyName = "MANUFACTURER_RECALL_NO_TXT")] //16S17
