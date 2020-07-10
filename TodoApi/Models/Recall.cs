@@ -1,11 +1,11 @@
 ﻿using Newtonsoft.Json;
-using System.ComponentModel.DataAnnotations;
 
 namespace TransportCanada.API3.Models
 {
+   
     public class Recall
     {
-        [Key]
+        
         public string recallNumber { get; set; }
         
         public string manufactureName { get; set; }
@@ -16,19 +16,19 @@ namespace TransportCanada.API3.Models
        
         public string recallYear { get; set; }
 
-        [JsonProperty(PropertyName = "MANUFACTURER_RECALL_NO_TXT")] //16S17
+        [JsonProperty(PropertyName = "MANUFACTURER_RECALL_NO_TXT")] 
         public string MANUFACTURER_RECALL_NO_TXT { get; set; }
 
-        [JsonProperty(PropertyName = "CATEGORY_ETXT")] //"Truck - Med. & H.D."
+        [JsonProperty(PropertyName = "CATEGORY_ETXT")] 
         public string CATEGORY_ETXT { get; set; }
 
-        [JsonProperty(PropertyName = "CATEGORY_FTXT")]// "Camion - usage moyen et usage intensif"
+        [JsonProperty(PropertyName = "CATEGORY_FTXT")]
         public string CATEGORY_FTXT { get; set; }
 
-        [JsonProperty(PropertyName = "SYSTEM_TYPE_ETXT")]// "Tires"
+        [JsonProperty(PropertyName = "SYSTEM_TYPE_ETXT")]
         public string SYSTEM_TYPE_ETXT { get; set; }
 
-        [JsonProperty(PropertyName = "SYSTEM_TYPE_FTXT")]//"Pneus"
+        [JsonProperty(PropertyName = "SYSTEM_TYPE_FTXT")]
         public string SYSTEM_TYPE_FTXT { get; set; }
 
     }

@@ -3,11 +3,10 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using TransportCanada.API3.Models;
+using System;
 
 namespace TransportCanada.API3.Controllers
 {
@@ -16,49 +15,11 @@ namespace TransportCanada.API3.Controllers
     [ApiController]
     public class RecallController : ControllerBase
     {
-        private readonly RecallContext _context;
-
-        public RecallController(RecallContext context)
-        {
-            _context = context;
-        }
-
-        // GET: api/Recall
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Recall>>> GetRecalls()
-        {        
-            
-            return await _context.Recalls.ToListAsync();
-        }
-
-        // GET: api/Recall/1
-        [HttpGet("{recallNumber}")]
-        public async Task<ActionResult<Recall>> GetRecall(string recallNumber)
-        {
-
-            string fileName = "data.json";
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\json", fileName);
-            string json = "";
-            if (System.IO.File.Exists(filePath))
-            {
-                json = System.IO.File.ReadAllText(filePath);
-
-            }
-            List<Recall> recallsFull = JsonConvert.DeserializeObject<List<Recall>>(json);
-            List<Recall> recalls = recallsFull.Where(x => x.recallNumber.Equals(recallNumber)).ToList();
-
-
-           // _context.Recalls.AddRange(recallsFull);
-           await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetRecall", recalls.First());
-        }
-
-
+        
 
         // GET: api/Recall/SystemType/Brakes
         [HttpGet("SystemType/{systemType}")]
-        public async Task<ActionResult<Recall>> GetRecallsFromSystemType(string systemType)
+        public async Task<ActionResult<Recall>> GetRecallsFromSystemTypeAsync(string systemType)
         {
 
             string fileName = "data.json";
@@ -69,58 +30,18 @@ namespace TransportCanada.API3.Controllers
                 json = System.IO.File.ReadAllText(filePath);
 
             }
-            List<Recall> recallsFull = JsonConvert.DeserializeObject<List<Recall>>(json);
-            List<Recall> recalls = recallsFull.Where(x => x.SYSTEM_TYPE_ETXT.Equals(systemType) || x.SYSTEM_TYPE_FTXT.Equals(systemType))?.ToList();
-
-
-            // _context.Recalls.AddRange(recallsFull);
-            await _context.SaveChangesAsync();
+            List<Recall> recalls =  await Task.Run(() => JsonConvert.DeserializeObject<List<Recall>>(json));
+            recalls = recalls
+                .Where(x => x.SYSTEM_TYPE_ETXT.Equals(systemType, StringComparison.OrdinalIgnoreCase) || x.SYSTEM_TYPE_FTXT.Equals(systemType, StringComparison.OrdinalIgnoreCase))?
+                .ToList();
 
             return CreatedAtAction("GetRecallsFromSystemType", recalls);
         }
 
-
-        // PUT: api/Recall/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{recallNumber}")]
-        public async Task<IActionResult> PutRecall(string recallNumber, Recall recall)
-        {
-            if (recallNumber != recall.recallNumber)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(recall).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!RecallExists(recallNumber))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
-  
-
+         
         // POST: api/Recalls
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        [Consumes(System.Net.Mime.MediaTypeNames.Application.Json)]
-        [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        
         public async Task<ActionResult<Recall>> PostRecalls(List<Recall> recalls)
         {
 
@@ -152,7 +73,7 @@ namespace TransportCanada.API3.Controllers
                     if (responseJson.IsSuccessStatusCode)
                     {
                         string recallSummary = await responseJson.Content.ReadAsStringAsync();
-                        var response = JsonConvert.DeserializeObject<TransportCanada.Models.Response>(recallSummary);
+                        var response = await Task.Run(() => JsonConvert.DeserializeObject<TransportCanada.Models.Response>(recallSummary));
                         recall.SYSTEM_TYPE_FTXT = response.ResultSet.First().Where(x => x.Name.Equals("SYSTEM_TYPE_FTXT")).FirstOrDefault()?.Value.Literal;
                         recall.SYSTEM_TYPE_ETXT = response.ResultSet.First().Where(x => x.Name.Equals("SYSTEM_TYPE_ETXT")).FirstOrDefault()?.Value.Literal;
 
@@ -172,41 +93,10 @@ namespace TransportCanada.API3.Controllers
                 writer.WriteLine(json);
             }
 
-
-            _context.Recalls.AddRange(recalls);
-            await _context.SaveChangesAsync();
-
+          
            
             return CreatedAtAction("PostRecalls", recalls);
         }
 
-
-    
-
-        
-
-
-        // DELETE: api/Recall/5
-        [HttpDelete("{recallNumber}")]
-        public async Task<ActionResult<Recall>> DeleteRecall(string recallNumber)
-        {
-            var recall = await _context.Recalls.FindAsync(recallNumber);
-            if (recall == null)
-            {
-                return NotFound();
-            }
-
-            
-
-            _context.Recalls.Remove(recall);
-            await _context.SaveChangesAsync();
-
-            return recall;
-        }
-
-        private bool RecallExists(string recallNumber)
-        {
-            return _context.Recalls.Any(e => e.recallNumber == recallNumber);
-        }
     }
 }

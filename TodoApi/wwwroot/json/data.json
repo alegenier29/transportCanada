@@ -5,22 +5,2023 @@
     "makeName": "FORD",
     "modelName": "EXPLORER",
     "recallYear": "2016",
-    "MANUFACTURER_RECALL_NO_TXT": "16S17",
-    "CATEGORY_ETXT": "Truck - Med. & H.D.",
-    "CATEGORY_FTXT": "Camion - usage moyen et usage intensif",
     "SYSTEM_TYPE_ETXT": "Brakes",
     "SYSTEM_TYPE_FTXT": "Freins"
   },
   {
-    "recallNumber": "2015322",
+    "recallNumber": "2015436",
     "manufactureName": "FORD",
-    "makeName": "DOGGE",
-    "modelName": "NEON",
+    "makeName": "FORD",
+    "modelName": "EXPLORER",
     "recallYear": "2016",
-    "MANUFACTURER_RECALL_NO_TXT": "16S17",
-    "CATEGORY_ETXT": "Truck - Med. & H.D.",
-    "CATEGORY_FTXT": "Camion - usage moyen et usage intensif",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2015441",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "FUSION",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2015508",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "MUSTANG",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Seats And Restraints",
+    "SYSTEM_TYPE_FTXT": "Sièges et dispositifs de retenue"
+  },
+  {
+    "recallNumber": "2015510",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "E450 CUTAWAY CHASSIS CAB",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2015609",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-650",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2015609",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-750",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016036",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "E450 CUTAWAY CHASSIS CAB",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016089",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Accessories",
+    "SYSTEM_TYPE_FTXT": "Accessoires"
+  },
+  {
+    "recallNumber": "2016090",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "TRANSIT",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Seats And Restraints",
+    "SYSTEM_TYPE_FTXT": "Sièges et dispositifs de retenue"
+  },
+  {
+    "recallNumber": "2016137",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "TRANSIT",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2016138",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EXPLORER",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2016139",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-650",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016139",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-750",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016185",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-250",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Tires",
+    "SYSTEM_TYPE_FTXT": "Pneus"
+  },
+  {
+    "recallNumber": "2016185",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-350",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Tires",
+    "SYSTEM_TYPE_FTXT": "Pneus"
+  },
+  {
+    "recallNumber": "2016185",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-450",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Tires",
+    "SYSTEM_TYPE_FTXT": "Pneus"
+  },
+  {
+    "recallNumber": "2016185",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-550",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Tires",
+    "SYSTEM_TYPE_FTXT": "Pneus"
+  },
+  {
+    "recallNumber": "2016253",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "FUSION",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Lights And Instruments",
+    "SYSTEM_TYPE_FTXT": "Feux et instruments"
+  },
+  {
+    "recallNumber": "2016328",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "FOCUS",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2016329",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Seats And Restraints",
+    "SYSTEM_TYPE_FTXT": "Sièges et dispositifs de retenue"
+  },
+  {
+    "recallNumber": "2016329",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EXPLORER",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Seats And Restraints",
+    "SYSTEM_TYPE_FTXT": "Sièges et dispositifs de retenue"
+  },
+  {
+    "recallNumber": "2016330",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "TRANSIT CONNECT",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016410",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "ESCAPE",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2016412",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "TRANSIT",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2015423",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2016038",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Other",
+    "SYSTEM_TYPE_FTXT": "Autres"
+  },
+  {
+    "recallNumber": "2016039",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Accessories",
+    "SYSTEM_TYPE_FTXT": "Accessoires"
+  },
+  {
+    "recallNumber": "2016099",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DART",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2016130",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DURANGO",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016130",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016202",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Steering",
+    "SYSTEM_TYPE_FTXT": "Direction"
+  },
+  {
+    "recallNumber": "2016218",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Seats And Restraints",
+    "SYSTEM_TYPE_FTXT": "Sièges et dispositifs de retenue"
+  },
+  {
+    "recallNumber": "2016306",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2016306",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2016450",
+    "manufactureName": "ELDORADO NATIONAL",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2016549",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DART",
+    "recallYear": "2016",
     "SYSTEM_TYPE_ETXT": "Electrical",
     "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2016550",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DURANGO",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2016575",
+    "manufactureName": "ELDORADO NATIONAL",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2016624",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017081",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017081",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017335",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017387",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2017387",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2017663",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DART",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Accessories",
+    "SYSTEM_TYPE_FTXT": "Accessoires"
+  },
+  {
+    "recallNumber": "2017663",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Accessories",
+    "SYSTEM_TYPE_FTXT": "Accessoires"
+  },
+  {
+    "recallNumber": "2017663",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Accessories",
+    "SYSTEM_TYPE_FTXT": "Accessoires"
+  },
+  {
+    "recallNumber": "2018079",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CARAVAN",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018219",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER PURSUIT",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2016147",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "RAV4",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016160",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2016160",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "AVALON",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2016449",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2016501",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016501",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016518",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "HIGHLANDER",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016586",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "SIENNA",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2016622",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2017036",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TUNDRA",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2017036",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TUNDRA",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2017117",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "YARIS",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Label",
+    "SYSTEM_TYPE_FTXT": "Étiquette"
+  },
+  {
+    "recallNumber": "2017231",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TACOMA",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017231",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TACOMA",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017290",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TACOMA",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017362",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY HYBRID",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "RAV4",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "RAV4",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "VENZA",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "YARIS",
+    "recallYear": "2016",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "YARIS",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2016253",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "FUSION",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Lights And Instruments",
+    "SYSTEM_TYPE_FTXT": "Feux et instruments"
+  },
+  {
+    "recallNumber": "2016410",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "ESCAPE",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2016475",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "FOCUS",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2016526",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-350 SUPER DUTY CHASSIS CAB",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2016526",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-450 SUPER DUTY CHASSIS CAB",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2016526",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-550 SUPER DUTY CHASSIS CAB",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2016527",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "MUSTANG",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2016602",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "FUSION",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Seats And Restraints",
+    "SYSTEM_TYPE_FTXT": "Sièges et dispositifs de retenue"
+  },
+  {
+    "recallNumber": "2016639",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "FLEX",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2016639",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "POLICE INTERCEPTOR UTILITY (EXPLORER)",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2016640",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-250 SUPER DUTY",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2016640",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-350 SUPER DUTY",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2017040",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Lights And Instruments",
+    "SYSTEM_TYPE_FTXT": "Feux et instruments"
+  },
+  {
+    "recallNumber": "2017102",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EDGE",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2017137",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "MUSTANG",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2017181",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EDGE",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2017182",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-450 CHASSIS CAB",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017182",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-550 CHASSIS CAB",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017190",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-250",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017224",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EXPLORER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Suspension",
+    "SYSTEM_TYPE_FTXT": "Suspension"
+  },
+  {
+    "recallNumber": "2017224",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "POLICE INTERCEPTOR UTILITY (EXPLORER)",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Suspension",
+    "SYSTEM_TYPE_FTXT": "Suspension"
+  },
+  {
+    "recallNumber": "2017275",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Seats And Restraints",
+    "SYSTEM_TYPE_FTXT": "Sièges et dispositifs de retenue"
+  },
+  {
+    "recallNumber": "2017275",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-550 CHASSIS CAB",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Seats And Restraints",
+    "SYSTEM_TYPE_FTXT": "Sièges et dispositifs de retenue"
+  },
+  {
+    "recallNumber": "2017276",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Accessories",
+    "SYSTEM_TYPE_FTXT": "Accessoires"
+  },
+  {
+    "recallNumber": "2017276",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-250",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Accessories",
+    "SYSTEM_TYPE_FTXT": "Accessoires"
+  },
+  {
+    "recallNumber": "2017464",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2017515",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2017517",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017578",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "TRANSIT CONNECT",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2017592",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EXPEDITION",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Seats And Restraints",
+    "SYSTEM_TYPE_FTXT": "Sièges et dispositifs de retenue"
+  },
+  {
+    "recallNumber": "2017652",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "MUSTANG",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Lights And Instruments",
+    "SYSTEM_TYPE_FTXT": "Feux et instruments"
+  },
+  {
+    "recallNumber": "2017653",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "ESCAPE",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2018034",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EXPEDITION",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2018087",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "ESCAPE",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018130",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "FUSION",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Steering",
+    "SYSTEM_TYPE_FTXT": "Direction"
+  },
+  {
+    "recallNumber": "2018164",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018164",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "MUSTANG",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018165",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018165",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-650",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018165",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-750",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018216",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "TRANSIT",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2018310",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2018310",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EXPEDITION",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2018311",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-650",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018311",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-750",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018332",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EDGE",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018444",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EDGE",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2018470",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "F-150",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Seats And Restraints",
+    "SYSTEM_TYPE_FTXT": "Sièges et dispositifs de retenue"
+  },
+  {
+    "recallNumber": "2018494",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "EDGE",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2018555",
+    "manufactureName": "FORD",
+    "makeName": "FORD",
+    "modelName": "GT",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2017081",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017335",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017387",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2017387",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018079",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CARAVAN",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018219",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER PURSUIT",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018219",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER PURSUIT",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018223",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018223",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DURANGO",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018223",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DURANGO",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DURANGO",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018324",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Other",
+    "SYSTEM_TYPE_FTXT": "Autres"
+  },
+  {
+    "recallNumber": "2018325",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Other",
+    "SYSTEM_TYPE_FTXT": "Autres"
+  },
+  {
+    "recallNumber": "2018396",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Accessories",
+    "SYSTEM_TYPE_FTXT": "Accessoires"
+  },
+  {
+    "recallNumber": "2018421",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018421",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018422",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018422",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DURANGO",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018219",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER PURSUIT",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018223",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018223",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DURANGO",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018223",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DURANGO",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018269",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018324",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Other",
+    "SYSTEM_TYPE_FTXT": "Autres"
+  },
+  {
+    "recallNumber": "2018325",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Other",
+    "SYSTEM_TYPE_FTXT": "Autres"
+  },
+  {
+    "recallNumber": "2018396",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Accessories",
+    "SYSTEM_TYPE_FTXT": "Accessoires"
+  },
+  {
+    "recallNumber": "2018421",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018421",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018421",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018422",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018422",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "DURANGO",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018422",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018422",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2018422",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2019137",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Lights And Instruments",
+    "SYSTEM_TYPE_FTXT": "Feux et instruments"
+  },
+  {
+    "recallNumber": "2019137",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHALLENGER",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Lights And Instruments",
+    "SYSTEM_TYPE_FTXT": "Feux et instruments"
+  },
+  {
+    "recallNumber": "2019161",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "CHARGER",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Label",
+    "SYSTEM_TYPE_FTXT": "Étiquette"
+  },
+  {
+    "recallNumber": "2019388",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "JOURNEY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Lights And Instruments",
+    "SYSTEM_TYPE_FTXT": "Feux et instruments"
+  },
+  {
+    "recallNumber": "2019420",
+    "manufactureName": "VITRO",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Other",
+    "SYSTEM_TYPE_FTXT": "Autres"
+  },
+  {
+    "recallNumber": "2019532",
+    "manufactureName": "FIAT CHRYSLER AUTOMOBILES",
+    "makeName": "DODGE",
+    "modelName": "GRAND CARAVAN",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Seats And Restraints",
+    "SYSTEM_TYPE_FTXT": "Sièges et dispositifs de retenue"
+  },
+  {
+    "recallNumber": "2016501",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2016622",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2017036",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TUNDRA",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Structure",
+    "SYSTEM_TYPE_FTXT": "Structure"
+  },
+  {
+    "recallNumber": "2017231",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TACOMA",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "C-HR",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "RAV4",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "YARIS",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "AVALON",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "SIENNA",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TACOMA",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TUNDRA",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "4RUNNER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "COROLLA",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS C",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS V",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "SEQUOIA",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "HIGHLANDER",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS PRIME",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "RAV4 HYBRID",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY HYBRID",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "COROLLA HATCHBACK",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "HIGHLANDER HYBRID",
+    "recallYear": "2017",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017559",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "C-HR",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2017363",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "C-HR",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2017559",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "C-HR",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018090",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2018100",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TUNDRA",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2018100",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "SEQUOIA",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2018148",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Engine",
+    "SYSTEM_TYPE_FTXT": "Moteur"
+  },
+  {
+    "recallNumber": "2018155",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018155",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "HIGHLANDER",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018477",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Electrical",
+    "SYSTEM_TYPE_FTXT": "Circuit électrique"
+  },
+  {
+    "recallNumber": "2018547",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "AVALON",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2018547",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TUNDRA",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2018547",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TUNDRA",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2018547",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "SEQUOIA",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2018547",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "SEQUOIA",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2018559",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "C-HR",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Suspension",
+    "SYSTEM_TYPE_FTXT": "Suspension"
+  },
+  {
+    "recallNumber": "2018705",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TACOMA",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018705",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "TACOMA",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2018712",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "COROLLA",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2019071",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "CAMRY HYBRID",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Fuel Supply",
+    "SYSTEM_TYPE_FTXT": "Alimentation en carburant"
+  },
+  {
+    "recallNumber": "2019198",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "SIENNA",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Airbag",
+    "SYSTEM_TYPE_FTXT": "Coussin gonflable"
+  },
+  {
+    "recallNumber": "2019316",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS C",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2019316",
+    "manufactureName": "TOYOTA",
+    "makeName": "TOYOTA",
+    "modelName": "PRIUS C",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Powertrain",
+    "SYSTEM_TYPE_FTXT": "Groupe motopropulseur"
+  },
+  {
+    "recallNumber": "2019317",
+    "manufactureName": "BRAUNABILITY",
+    "makeName": "TOYOTA",
+    "modelName": "SIENNA",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2019317",
+    "manufactureName": "BRAUNABILITY",
+    "makeName": "TOYOTA",
+    "modelName": "SIENNA",
+    "recallYear": "2019",
+    "SYSTEM_TYPE_ETXT": "Brakes",
+    "SYSTEM_TYPE_FTXT": "Freins"
+  },
+  {
+    "recallNumber": "2019355",
+    "manufactureName": "BRAUNABILITY",
+    "makeName": "TOYOTA",
+    "modelName": "SIENNA",
+    "recallYear": "2018",
+    "SYSTEM_TYPE_ETXT": "Steering",
+    "SYSTEM_TYPE_FTXT": "Direction"
   }
 ]

@@ -1,12 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using TransportCanada.API3.Models;
 
-namespace TodoApi
+namespace Api3
 {
     public class Startup
     {
@@ -20,7 +18,7 @@ namespace TodoApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<RecallContext>(opt => opt.UseInMemoryDatabase("Recalls"));
+          
             services.AddControllers();
         }
 
@@ -34,12 +32,10 @@ namespace TodoApi
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
-
             app.UseHttpsRedirection();
-
             app.UseRouting();
 
-            app.UseAuthorization();
+         
 
             app.UseEndpoints(endpoints =>
             {
