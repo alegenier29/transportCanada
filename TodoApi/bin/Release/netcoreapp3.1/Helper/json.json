@@ -1,0 +1,1074 @@
+{
+  "ResultSet": [
+    [
+      {
+        "Name": "RECALL_NUMBER_NUM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "2015321"
+        }
+      },
+      {
+        "Name": "MANUFACTURER_RECALL_NO_TXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "15C07"
+        }
+      },
+      {
+        "Name": "CATEGORY_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "SUV"
+        }
+      },
+      {
+        "Name": "CATEGORY_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Véhicule utilitaire-sport"
+        }
+      },
+      {
+        "Name": "MODEL_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "FLEX"
+        }
+      },
+      {
+        "Name": "MAKE_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "FORD"
+        }
+      },
+      {
+        "Name": "UNIT_AFFECTED_NBR",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "799"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Brakes"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Freins"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Compliance Mfr"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Conformité - fabricant"
+        }
+      },
+      {
+        "Name": "COMMENT_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certain vehicles fail to comply with the requirements of Canada Motor Vehicle Safety Standard 135 - Brake Systems.  During the manufacturing process, the parking brake controller assembly bracket may have been improperly formed.  This could result in the pawl to not engage the sector gear during actuation and the parking brake not fully engaging. If the transmission is in Park, there will be no unintended vehicle movement.  If the transmission is left in a  gear other than Park, and the vehicle is parked on a sufficient slope, a non-functioning parking brake could result in unintended vehicle movement, increasing the risk of a crash causing injury and/or property damage.  Correction:  Dealers will inspect, and if necessary, replace the parking brake control assembly."
+        }
+      },
+      {
+        "Name": "COMMENT_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certains véhicules ne satisfont pas aux exigences de la norme de sécurité des véhicules automobiles du Canada (NSVAC) 135 – Systèmes de freinage de véhicules légers. Au cours de la fabrication, le support de commande de frein de stationnement pourrait avoir été formé incorrectement. Cela pourrait empêcher le cliquet de s'insérer dans le secteur denté durant l'actionnement, ainsi qu'empêcher le serrement complet du frein de stationnement. Si la boîte de vitesses est réglée à la position de stationnement (Park), le véhicule ne pourra pas bouger de façon imprévue. Si la boîte de vitesses est réglée à un rapport autre que la position de stationnement (Park) et si le véhicule est stationné sur une surface assez inclinée, un frein de stationnement défectueux pourrait causer un mouvement imprévu du véhicule, ce qui augmenterait les risques d'accident pouvant entraîner des blessures ou des dommages matériels (ou les deux). Correction : Les concessionnaires devront inspecter le module de commande du frein de stationnement et, au besoin, le remplacer."
+        }
+      },
+      {
+        "Name": "DATE_YEAR_CD",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "2015"
+        }
+      },
+      {
+        "Name": "RECALL_DATE_DTE",
+        "Value": {
+          "Type": "System.DateTime",
+          "Literal": "7/21/2015 12:00:00 AM"
+        }
+      }
+    ],
+    [
+      {
+        "Name": "RECALL_NUMBER_NUM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "2015321"
+        }
+      },
+      {
+        "Name": "MANUFACTURER_RECALL_NO_TXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "15C07"
+        }
+      },
+      {
+        "Name": "CATEGORY_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "SUV"
+        }
+      },
+      {
+        "Name": "CATEGORY_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Véhicule utilitaire-sport"
+        }
+      },
+      {
+        "Name": "MODEL_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "EXPLORER"
+        }
+      },
+      {
+        "Name": "MAKE_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "FORD"
+        }
+      },
+      {
+        "Name": "UNIT_AFFECTED_NBR",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "799"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Brakes"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Freins"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Compliance Mfr"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Conformité - fabricant"
+        }
+      },
+      {
+        "Name": "COMMENT_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certain vehicles fail to comply with the requirements of Canada Motor Vehicle Safety Standard 135 - Brake Systems.  During the manufacturing process, the parking brake controller assembly bracket may have been improperly formed.  This could result in the pawl to not engage the sector gear during actuation and the parking brake not fully engaging. If the transmission is in Park, there will be no unintended vehicle movement.  If the transmission is left in a  gear other than Park, and the vehicle is parked on a sufficient slope, a non-functioning parking brake could result in unintended vehicle movement, increasing the risk of a crash causing injury and/or property damage.  Correction:  Dealers will inspect, and if necessary, replace the parking brake control assembly."
+        }
+      },
+      {
+        "Name": "COMMENT_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certains véhicules ne satisfont pas aux exigences de la norme de sécurité des véhicules automobiles du Canada (NSVAC) 135 – Systèmes de freinage de véhicules légers. Au cours de la fabrication, le support de commande de frein de stationnement pourrait avoir été formé incorrectement. Cela pourrait empêcher le cliquet de s'insérer dans le secteur denté durant l'actionnement, ainsi qu'empêcher le serrement complet du frein de stationnement. Si la boîte de vitesses est réglée à la position de stationnement (Park), le véhicule ne pourra pas bouger de façon imprévue. Si la boîte de vitesses est réglée à un rapport autre que la position de stationnement (Park) et si le véhicule est stationné sur une surface assez inclinée, un frein de stationnement défectueux pourrait causer un mouvement imprévu du véhicule, ce qui augmenterait les risques d'accident pouvant entraîner des blessures ou des dommages matériels (ou les deux). Correction : Les concessionnaires devront inspecter le module de commande du frein de stationnement et, au besoin, le remplacer."
+        }
+      },
+      {
+        "Name": "DATE_YEAR_CD",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "2016"
+        }
+      },
+      {
+        "Name": "RECALL_DATE_DTE",
+        "Value": {
+          "Type": "System.DateTime",
+          "Literal": "7/21/2015 12:00:00 AM"
+        }
+      }
+    ],
+    [
+      {
+        "Name": "RECALL_NUMBER_NUM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "2015321"
+        }
+      },
+      {
+        "Name": "MANUFACTURER_RECALL_NO_TXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "15C07"
+        }
+      },
+      {
+        "Name": "CATEGORY_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "SUV"
+        }
+      },
+      {
+        "Name": "CATEGORY_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Véhicule utilitaire-sport"
+        }
+      },
+      {
+        "Name": "MODEL_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "TAURUS"
+        }
+      },
+      {
+        "Name": "MAKE_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "FORD"
+        }
+      },
+      {
+        "Name": "UNIT_AFFECTED_NBR",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "799"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Brakes"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Freins"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Compliance Mfr"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Conformité - fabricant"
+        }
+      },
+      {
+        "Name": "COMMENT_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certain vehicles fail to comply with the requirements of Canada Motor Vehicle Safety Standard 135 - Brake Systems.  During the manufacturing process, the parking brake controller assembly bracket may have been improperly formed.  This could result in the pawl to not engage the sector gear during actuation and the parking brake not fully engaging. If the transmission is in Park, there will be no unintended vehicle movement.  If the transmission is left in a  gear other than Park, and the vehicle is parked on a sufficient slope, a non-functioning parking brake could result in unintended vehicle movement, increasing the risk of a crash causing injury and/or property damage.  Correction:  Dealers will inspect, and if necessary, replace the parking brake control assembly."
+        }
+      },
+      {
+        "Name": "COMMENT_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certains véhicules ne satisfont pas aux exigences de la norme de sécurité des véhicules automobiles du Canada (NSVAC) 135 – Systèmes de freinage de véhicules légers. Au cours de la fabrication, le support de commande de frein de stationnement pourrait avoir été formé incorrectement. Cela pourrait empêcher le cliquet de s'insérer dans le secteur denté durant l'actionnement, ainsi qu'empêcher le serrement complet du frein de stationnement. Si la boîte de vitesses est réglée à la position de stationnement (Park), le véhicule ne pourra pas bouger de façon imprévue. Si la boîte de vitesses est réglée à un rapport autre que la position de stationnement (Park) et si le véhicule est stationné sur une surface assez inclinée, un frein de stationnement défectueux pourrait causer un mouvement imprévu du véhicule, ce qui augmenterait les risques d'accident pouvant entraîner des blessures ou des dommages matériels (ou les deux). Correction : Les concessionnaires devront inspecter le module de commande du frein de stationnement et, au besoin, le remplacer."
+        }
+      },
+      {
+        "Name": "DATE_YEAR_CD",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "2015"
+        }
+      },
+      {
+        "Name": "RECALL_DATE_DTE",
+        "Value": {
+          "Type": "System.DateTime",
+          "Literal": "7/21/2015 12:00:00 AM"
+        }
+      }
+    ],
+    [
+      {
+        "Name": "RECALL_NUMBER_NUM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "2015321"
+        }
+      },
+      {
+        "Name": "MANUFACTURER_RECALL_NO_TXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "15C07"
+        }
+      },
+      {
+        "Name": "CATEGORY_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Car"
+        }
+      },
+      {
+        "Name": "CATEGORY_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Voiture"
+        }
+      },
+      {
+        "Name": "MODEL_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "FLEX"
+        }
+      },
+      {
+        "Name": "MAKE_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "FORD"
+        }
+      },
+      {
+        "Name": "UNIT_AFFECTED_NBR",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "799"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Brakes"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Freins"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Compliance Mfr"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Conformité - fabricant"
+        }
+      },
+      {
+        "Name": "COMMENT_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certain vehicles fail to comply with the requirements of Canada Motor Vehicle Safety Standard 135 - Brake Systems.  During the manufacturing process, the parking brake controller assembly bracket may have been improperly formed.  This could result in the pawl to not engage the sector gear during actuation and the parking brake not fully engaging. If the transmission is in Park, there will be no unintended vehicle movement.  If the transmission is left in a  gear other than Park, and the vehicle is parked on a sufficient slope, a non-functioning parking brake could result in unintended vehicle movement, increasing the risk of a crash causing injury and/or property damage.  Correction:  Dealers will inspect, and if necessary, replace the parking brake control assembly."
+        }
+      },
+      {
+        "Name": "COMMENT_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certains véhicules ne satisfont pas aux exigences de la norme de sécurité des véhicules automobiles du Canada (NSVAC) 135 – Systèmes de freinage de véhicules légers. Au cours de la fabrication, le support de commande de frein de stationnement pourrait avoir été formé incorrectement. Cela pourrait empêcher le cliquet de s'insérer dans le secteur denté durant l'actionnement, ainsi qu'empêcher le serrement complet du frein de stationnement. Si la boîte de vitesses est réglée à la position de stationnement (Park), le véhicule ne pourra pas bouger de façon imprévue. Si la boîte de vitesses est réglée à un rapport autre que la position de stationnement (Park) et si le véhicule est stationné sur une surface assez inclinée, un frein de stationnement défectueux pourrait causer un mouvement imprévu du véhicule, ce qui augmenterait les risques d'accident pouvant entraîner des blessures ou des dommages matériels (ou les deux). Correction : Les concessionnaires devront inspecter le module de commande du frein de stationnement et, au besoin, le remplacer."
+        }
+      },
+      {
+        "Name": "DATE_YEAR_CD",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "2015"
+        }
+      },
+      {
+        "Name": "RECALL_DATE_DTE",
+        "Value": {
+          "Type": "System.DateTime",
+          "Literal": "7/21/2015 12:00:00 AM"
+        }
+      }
+    ],
+    [
+      {
+        "Name": "RECALL_NUMBER_NUM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "2015321"
+        }
+      },
+      {
+        "Name": "MANUFACTURER_RECALL_NO_TXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "15C07"
+        }
+      },
+      {
+        "Name": "CATEGORY_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Car"
+        }
+      },
+      {
+        "Name": "CATEGORY_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Voiture"
+        }
+      },
+      {
+        "Name": "MODEL_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "EXPLORER"
+        }
+      },
+      {
+        "Name": "MAKE_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "FORD"
+        }
+      },
+      {
+        "Name": "UNIT_AFFECTED_NBR",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "799"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Brakes"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Freins"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Compliance Mfr"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Conformité - fabricant"
+        }
+      },
+      {
+        "Name": "COMMENT_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certain vehicles fail to comply with the requirements of Canada Motor Vehicle Safety Standard 135 - Brake Systems.  During the manufacturing process, the parking brake controller assembly bracket may have been improperly formed.  This could result in the pawl to not engage the sector gear during actuation and the parking brake not fully engaging. If the transmission is in Park, there will be no unintended vehicle movement.  If the transmission is left in a  gear other than Park, and the vehicle is parked on a sufficient slope, a non-functioning parking brake could result in unintended vehicle movement, increasing the risk of a crash causing injury and/or property damage.  Correction:  Dealers will inspect, and if necessary, replace the parking brake control assembly."
+        }
+      },
+      {
+        "Name": "COMMENT_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certains véhicules ne satisfont pas aux exigences de la norme de sécurité des véhicules automobiles du Canada (NSVAC) 135 – Systèmes de freinage de véhicules légers. Au cours de la fabrication, le support de commande de frein de stationnement pourrait avoir été formé incorrectement. Cela pourrait empêcher le cliquet de s'insérer dans le secteur denté durant l'actionnement, ainsi qu'empêcher le serrement complet du frein de stationnement. Si la boîte de vitesses est réglée à la position de stationnement (Park), le véhicule ne pourra pas bouger de façon imprévue. Si la boîte de vitesses est réglée à un rapport autre que la position de stationnement (Park) et si le véhicule est stationné sur une surface assez inclinée, un frein de stationnement défectueux pourrait causer un mouvement imprévu du véhicule, ce qui augmenterait les risques d'accident pouvant entraîner des blessures ou des dommages matériels (ou les deux). Correction : Les concessionnaires devront inspecter le module de commande du frein de stationnement et, au besoin, le remplacer."
+        }
+      },
+      {
+        "Name": "DATE_YEAR_CD",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "2016"
+        }
+      },
+      {
+        "Name": "RECALL_DATE_DTE",
+        "Value": {
+          "Type": "System.DateTime",
+          "Literal": "7/21/2015 12:00:00 AM"
+        }
+      }
+    ],
+    [
+      {
+        "Name": "RECALL_NUMBER_NUM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "2015321"
+        }
+      },
+      {
+        "Name": "MANUFACTURER_RECALL_NO_TXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "15C07"
+        }
+      },
+      {
+        "Name": "CATEGORY_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Car"
+        }
+      },
+      {
+        "Name": "CATEGORY_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Voiture"
+        }
+      },
+      {
+        "Name": "MODEL_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "TAURUS"
+        }
+      },
+      {
+        "Name": "MAKE_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "FORD"
+        }
+      },
+      {
+        "Name": "UNIT_AFFECTED_NBR",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "799"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Brakes"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Freins"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Compliance Mfr"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Conformité - fabricant"
+        }
+      },
+      {
+        "Name": "COMMENT_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certain vehicles fail to comply with the requirements of Canada Motor Vehicle Safety Standard 135 - Brake Systems.  During the manufacturing process, the parking brake controller assembly bracket may have been improperly formed.  This could result in the pawl to not engage the sector gear during actuation and the parking brake not fully engaging. If the transmission is in Park, there will be no unintended vehicle movement.  If the transmission is left in a  gear other than Park, and the vehicle is parked on a sufficient slope, a non-functioning parking brake could result in unintended vehicle movement, increasing the risk of a crash causing injury and/or property damage.  Correction:  Dealers will inspect, and if necessary, replace the parking brake control assembly."
+        }
+      },
+      {
+        "Name": "COMMENT_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certains véhicules ne satisfont pas aux exigences de la norme de sécurité des véhicules automobiles du Canada (NSVAC) 135 – Systèmes de freinage de véhicules légers. Au cours de la fabrication, le support de commande de frein de stationnement pourrait avoir été formé incorrectement. Cela pourrait empêcher le cliquet de s'insérer dans le secteur denté durant l'actionnement, ainsi qu'empêcher le serrement complet du frein de stationnement. Si la boîte de vitesses est réglée à la position de stationnement (Park), le véhicule ne pourra pas bouger de façon imprévue. Si la boîte de vitesses est réglée à un rapport autre que la position de stationnement (Park) et si le véhicule est stationné sur une surface assez inclinée, un frein de stationnement défectueux pourrait causer un mouvement imprévu du véhicule, ce qui augmenterait les risques d'accident pouvant entraîner des blessures ou des dommages matériels (ou les deux). Correction : Les concessionnaires devront inspecter le module de commande du frein de stationnement et, au besoin, le remplacer."
+        }
+      },
+      {
+        "Name": "DATE_YEAR_CD",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "2015"
+        }
+      },
+      {
+        "Name": "RECALL_DATE_DTE",
+        "Value": {
+          "Type": "System.DateTime",
+          "Literal": "7/21/2015 12:00:00 AM"
+        }
+      }
+    ],
+    [
+      {
+        "Name": "RECALL_NUMBER_NUM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "2015321"
+        }
+      },
+      {
+        "Name": "MANUFACTURER_RECALL_NO_TXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "15C07"
+        }
+      },
+      {
+        "Name": "CATEGORY_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "SUV"
+        }
+      },
+      {
+        "Name": "CATEGORY_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Véhicule utilitaire-sport"
+        }
+      },
+      {
+        "Name": "MODEL_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "MKS"
+        }
+      },
+      {
+        "Name": "MAKE_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "LINCOLN"
+        }
+      },
+      {
+        "Name": "UNIT_AFFECTED_NBR",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "799"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Brakes"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Freins"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Compliance Mfr"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Conformité - fabricant"
+        }
+      },
+      {
+        "Name": "COMMENT_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certain vehicles fail to comply with the requirements of Canada Motor Vehicle Safety Standard 135 - Brake Systems.  During the manufacturing process, the parking brake controller assembly bracket may have been improperly formed.  This could result in the pawl to not engage the sector gear during actuation and the parking brake not fully engaging. If the transmission is in Park, there will be no unintended vehicle movement.  If the transmission is left in a  gear other than Park, and the vehicle is parked on a sufficient slope, a non-functioning parking brake could result in unintended vehicle movement, increasing the risk of a crash causing injury and/or property damage.  Correction:  Dealers will inspect, and if necessary, replace the parking brake control assembly."
+        }
+      },
+      {
+        "Name": "COMMENT_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certains véhicules ne satisfont pas aux exigences de la norme de sécurité des véhicules automobiles du Canada (NSVAC) 135 – Systèmes de freinage de véhicules légers. Au cours de la fabrication, le support de commande de frein de stationnement pourrait avoir été formé incorrectement. Cela pourrait empêcher le cliquet de s'insérer dans le secteur denté durant l'actionnement, ainsi qu'empêcher le serrement complet du frein de stationnement. Si la boîte de vitesses est réglée à la position de stationnement (Park), le véhicule ne pourra pas bouger de façon imprévue. Si la boîte de vitesses est réglée à un rapport autre que la position de stationnement (Park) et si le véhicule est stationné sur une surface assez inclinée, un frein de stationnement défectueux pourrait causer un mouvement imprévu du véhicule, ce qui augmenterait les risques d'accident pouvant entraîner des blessures ou des dommages matériels (ou les deux). Correction : Les concessionnaires devront inspecter le module de commande du frein de stationnement et, au besoin, le remplacer."
+        }
+      },
+      {
+        "Name": "DATE_YEAR_CD",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "2015"
+        }
+      },
+      {
+        "Name": "RECALL_DATE_DTE",
+        "Value": {
+          "Type": "System.DateTime",
+          "Literal": "7/21/2015 12:00:00 AM"
+        }
+      }
+    ],
+    [
+      {
+        "Name": "RECALL_NUMBER_NUM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "2015321"
+        }
+      },
+      {
+        "Name": "MANUFACTURER_RECALL_NO_TXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "15C07"
+        }
+      },
+      {
+        "Name": "CATEGORY_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "SUV"
+        }
+      },
+      {
+        "Name": "CATEGORY_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Véhicule utilitaire-sport"
+        }
+      },
+      {
+        "Name": "MODEL_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "MKT"
+        }
+      },
+      {
+        "Name": "MAKE_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "LINCOLN"
+        }
+      },
+      {
+        "Name": "UNIT_AFFECTED_NBR",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "799"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Brakes"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Freins"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Compliance Mfr"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Conformité - fabricant"
+        }
+      },
+      {
+        "Name": "COMMENT_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certain vehicles fail to comply with the requirements of Canada Motor Vehicle Safety Standard 135 - Brake Systems.  During the manufacturing process, the parking brake controller assembly bracket may have been improperly formed.  This could result in the pawl to not engage the sector gear during actuation and the parking brake not fully engaging. If the transmission is in Park, there will be no unintended vehicle movement.  If the transmission is left in a  gear other than Park, and the vehicle is parked on a sufficient slope, a non-functioning parking brake could result in unintended vehicle movement, increasing the risk of a crash causing injury and/or property damage.  Correction:  Dealers will inspect, and if necessary, replace the parking brake control assembly."
+        }
+      },
+      {
+        "Name": "COMMENT_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certains véhicules ne satisfont pas aux exigences de la norme de sécurité des véhicules automobiles du Canada (NSVAC) 135 – Systèmes de freinage de véhicules légers. Au cours de la fabrication, le support de commande de frein de stationnement pourrait avoir été formé incorrectement. Cela pourrait empêcher le cliquet de s'insérer dans le secteur denté durant l'actionnement, ainsi qu'empêcher le serrement complet du frein de stationnement. Si la boîte de vitesses est réglée à la position de stationnement (Park), le véhicule ne pourra pas bouger de façon imprévue. Si la boîte de vitesses est réglée à un rapport autre que la position de stationnement (Park) et si le véhicule est stationné sur une surface assez inclinée, un frein de stationnement défectueux pourrait causer un mouvement imprévu du véhicule, ce qui augmenterait les risques d'accident pouvant entraîner des blessures ou des dommages matériels (ou les deux). Correction : Les concessionnaires devront inspecter le module de commande du frein de stationnement et, au besoin, le remplacer."
+        }
+      },
+      {
+        "Name": "DATE_YEAR_CD",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "2015"
+        }
+      },
+      {
+        "Name": "RECALL_DATE_DTE",
+        "Value": {
+          "Type": "System.DateTime",
+          "Literal": "7/21/2015 12:00:00 AM"
+        }
+      }
+    ],
+    [
+      {
+        "Name": "RECALL_NUMBER_NUM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "2015321"
+        }
+      },
+      {
+        "Name": "MANUFACTURER_RECALL_NO_TXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "15C07"
+        }
+      },
+      {
+        "Name": "CATEGORY_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Car"
+        }
+      },
+      {
+        "Name": "CATEGORY_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Voiture"
+        }
+      },
+      {
+        "Name": "MODEL_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "MKS"
+        }
+      },
+      {
+        "Name": "MAKE_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "LINCOLN"
+        }
+      },
+      {
+        "Name": "UNIT_AFFECTED_NBR",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "799"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Brakes"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Freins"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Compliance Mfr"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Conformité - fabricant"
+        }
+      },
+      {
+        "Name": "COMMENT_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certain vehicles fail to comply with the requirements of Canada Motor Vehicle Safety Standard 135 - Brake Systems.  During the manufacturing process, the parking brake controller assembly bracket may have been improperly formed.  This could result in the pawl to not engage the sector gear during actuation and the parking brake not fully engaging. If the transmission is in Park, there will be no unintended vehicle movement.  If the transmission is left in a  gear other than Park, and the vehicle is parked on a sufficient slope, a non-functioning parking brake could result in unintended vehicle movement, increasing the risk of a crash causing injury and/or property damage.  Correction:  Dealers will inspect, and if necessary, replace the parking brake control assembly."
+        }
+      },
+      {
+        "Name": "COMMENT_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certains véhicules ne satisfont pas aux exigences de la norme de sécurité des véhicules automobiles du Canada (NSVAC) 135 – Systèmes de freinage de véhicules légers. Au cours de la fabrication, le support de commande de frein de stationnement pourrait avoir été formé incorrectement. Cela pourrait empêcher le cliquet de s'insérer dans le secteur denté durant l'actionnement, ainsi qu'empêcher le serrement complet du frein de stationnement. Si la boîte de vitesses est réglée à la position de stationnement (Park), le véhicule ne pourra pas bouger de façon imprévue. Si la boîte de vitesses est réglée à un rapport autre que la position de stationnement (Park) et si le véhicule est stationné sur une surface assez inclinée, un frein de stationnement défectueux pourrait causer un mouvement imprévu du véhicule, ce qui augmenterait les risques d'accident pouvant entraîner des blessures ou des dommages matériels (ou les deux). Correction : Les concessionnaires devront inspecter le module de commande du frein de stationnement et, au besoin, le remplacer."
+        }
+      },
+      {
+        "Name": "DATE_YEAR_CD",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "2015"
+        }
+      },
+      {
+        "Name": "RECALL_DATE_DTE",
+        "Value": {
+          "Type": "System.DateTime",
+          "Literal": "7/21/2015 12:00:00 AM"
+        }
+      }
+    ],
+    [
+      {
+        "Name": "RECALL_NUMBER_NUM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "2015321"
+        }
+      },
+      {
+        "Name": "MANUFACTURER_RECALL_NO_TXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "15C07"
+        }
+      },
+      {
+        "Name": "CATEGORY_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Car"
+        }
+      },
+      {
+        "Name": "CATEGORY_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Voiture"
+        }
+      },
+      {
+        "Name": "MODEL_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "MKT"
+        }
+      },
+      {
+        "Name": "MAKE_NAME_NM",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "LINCOLN"
+        }
+      },
+      {
+        "Name": "UNIT_AFFECTED_NBR",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "799"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Brakes"
+        }
+      },
+      {
+        "Name": "SYSTEM_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Freins"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Compliance Mfr"
+        }
+      },
+      {
+        "Name": "NOTIFICATION_TYPE_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Conformité - fabricant"
+        }
+      },
+      {
+        "Name": "COMMENT_ETXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certain vehicles fail to comply with the requirements of Canada Motor Vehicle Safety Standard 135 - Brake Systems.  During the manufacturing process, the parking brake controller assembly bracket may have been improperly formed.  This could result in the pawl to not engage the sector gear during actuation and the parking brake not fully engaging. If the transmission is in Park, there will be no unintended vehicle movement.  If the transmission is left in a  gear other than Park, and the vehicle is parked on a sufficient slope, a non-functioning parking brake could result in unintended vehicle movement, increasing the risk of a crash causing injury and/or property damage.  Correction:  Dealers will inspect, and if necessary, replace the parking brake control assembly."
+        }
+      },
+      {
+        "Name": "COMMENT_FTXT",
+        "Value": {
+          "Type": "System.String",
+          "Literal": "Certains véhicules ne satisfont pas aux exigences de la norme de sécurité des véhicules automobiles du Canada (NSVAC) 135 – Systèmes de freinage de véhicules légers. Au cours de la fabrication, le support de commande de frein de stationnement pourrait avoir été formé incorrectement. Cela pourrait empêcher le cliquet de s'insérer dans le secteur denté durant l'actionnement, ainsi qu'empêcher le serrement complet du frein de stationnement. Si la boîte de vitesses est réglée à la position de stationnement (Park), le véhicule ne pourra pas bouger de façon imprévue. Si la boîte de vitesses est réglée à un rapport autre que la position de stationnement (Park) et si le véhicule est stationné sur une surface assez inclinée, un frein de stationnement défectueux pourrait causer un mouvement imprévu du véhicule, ce qui augmenterait les risques d'accident pouvant entraîner des blessures ou des dommages matériels (ou les deux). Correction : Les concessionnaires devront inspecter le module de commande du frein de stationnement et, au besoin, le remplacer."
+        }
+      },
+      {
+        "Name": "DATE_YEAR_CD",
+        "Value": {
+          "Type": "System.Decimal",
+          "Literal": "2015"
+        }
+      },
+      {
+        "Name": "RECALL_DATE_DTE",
+        "Value": {
+          "Type": "System.DateTime",
+          "Literal": "7/21/2015 12:00:00 AM"
+        }
+      }
+    ]
+  ]
+}

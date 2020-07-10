@@ -11,6 +11,7 @@
     <WebStackScaffolding_DbContextTypeFullName>TodoApi.Models.TodoContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <ActiveDebugProfile>Api3</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>API320200710160911 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

@@ -15,9 +15,9 @@ namespace TransportCanada.API3.Controllers
     [ApiController]
     public class API3Controller : ControllerBase
     {
-        
 
-        // GET: api/Recall/SystemType/Brakes
+
+        // GET: /tc/API3/SystemType/Brakes
         [HttpGet("SystemType/{systemType}")]
         public async Task<ActionResult<Recall>> GetRecallsFromSystemTypeAsync(string systemType)
         {
@@ -39,7 +39,7 @@ namespace TransportCanada.API3.Controllers
         }
 
          
-        // POST: api/Recalls
+        // POST: tc/API3
         [HttpPost]
         
         public async Task<ActionResult<Recall>> PostRecalls(List<Recall> recalls)
