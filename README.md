@@ -21,7 +21,7 @@ ASP.NET Core Runtime 3.1.301 - Windows Hosting Bundle (https://dotnet.microsoft.
 
 
 # Instruction pour reconstruire les APIs
-Le site web et l'API 1 peuvent être reconstruit en ouvrant la Solution Recall.sln qui possede l'API_3. Ensuite faire un clique droit sur le projet API3 et cliquer sur "Publish". S'il n'y a pas déjà un profile de créé, créer un profile "File System" (prendre note du dossier de destination) et garder les paramètres par défault. Cliquer finalement sur "Publish" et copier les fichiers résultant au site IIS.
+L'API 3 peut être reconstruit en ouvrant la Solution Recall.sln. Ensuite, faire un clique droit sur le projet API3 et cliquer sur "Publish". S'il n'y a pas déjà un profile de créé, créer un profile "File System" (prendre note du dossier de destination) et garder les paramètres par défault. Cliquer finalement sur "Publish" et copier les fichiers résultant au site IIS.
 
 
 # Autres informations
@@ -29,7 +29,7 @@ Le site web devrait populer le lien pour l'API 3 automatiquement, si non le lien
 
 # Operations exposés
 
-POST: https://api320200710160911.azurewebsites.net/tc/API3. Post un array de recalls.
-GET: https://api320200710160911.azurewebsites.net/tc/API3/SystemType/Freins. Obtient tous les rappels où le type de système concerné est le freins.
+POST: https://api320200710160911.azurewebsites.net/tc/API3. Envoie un tableau de rappels.
+GET: https://api320200710160911.azurewebsites.net/tc/API3/SystemType/Freins. L'url precedant obtient tous les rappels où le type de système concerné est le freins.
 
 Pour tous les APIs si le champs de recherche contient du texte l'option Visionner et Télécharger seront filtré d'après la valeur dans la boite de recherche.
