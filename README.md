@@ -13,7 +13,7 @@ Installation du Site web et de l'API 3 pour Windows IIS:
 9. Naviguer au nouveau site
 
 # Hébergement
-Hébergement https://api320200710160911.azurewebsites.net/tc
+Hébergement https://thebro.net/API3/
 
 
 # Logiciels et versions requis
@@ -25,11 +25,11 @@ L'API 3 peut être reconstruit en ouvrant la Solution Recall.sln. Ensuite, faire
 
 
 # Autres informations
-Le site web devrait populer le lien pour l'API 3 automatiquement, si non le lien à utiliser est le lien de base du site (ex: https://api320200710160911.azurewebsites.net/tc/) suivi de API3/.
+Le site web devrait populer le lien pour l'API 3 automatiquement, si non le lien à utiliser est le lien de base du site (ex:  https://thebro.net/API3/tc/) suivi de API3/.
 
 # Operations exposés
 
-POST: https://api320200710160911.azurewebsites.net/tc/API3. Envoie un tableau de rappels.
-GET: https://api320200710160911.azurewebsites.net/tc/API3/SystemType/Freins. L'url precedant obtient tous les rappels où le type de système concerné est le freins.
+POST: https://thebro.net/API3/tc/API3/. Envoie un tableau de rappels.
+GET: https://thebro.net/API3/tc/API3/SystemType/Brakes. L'url precedant obtient tous les rappels où le type de système concerné est le freins.
 
 Pour tous les APIs si le champs de recherche contient du texte l'option Visionner et Télécharger seront filtré d'après la valeur dans la boite de recherche.
