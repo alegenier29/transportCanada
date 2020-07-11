@@ -30,6 +30,6 @@ Le site web devrait populer le lien pour l'API 3 automatiquement, si non le lien
 # Operations exposés
 
 POST: https://thebro.net/API3/tc/API3/. Envoie un tableau de rappels.
-GET: https://thebro.net/API3/tc/API3/SystemType/Brakes. L'url precedant obtient tous les rappels où le type de système concerné est le freins.
+GET: https://thebro.net/API3/tc/API3?systemType=Brakes. L'url precedant obtient tous les rappels où le type de système concerné est le freins.
 
 Pour tous les APIs si le champs de recherche contient du texte l'option Visionner et Télécharger seront filtré d'après la valeur dans la boite de recherche.
