@@ -16,9 +16,9 @@ namespace TransportCanada.API3.Controllers
     public class API3Controller : ControllerBase
     {
 
-
-        // GET: /tc/API3/SystemType/Brakes
-        [HttpGet("SystemType/{systemType}")]
+        // GET: /tc/API3
+        // GET: /tc/API3?systemType=Brakes
+        [HttpGet]
         public async Task<ActionResult<Recall>> GetRecallsFromSystemTypeAsync(string systemType)
         {
 
@@ -31,11 +31,16 @@ namespace TransportCanada.API3.Controllers
 
             }
             List<Recall> recalls =  await Task.Run(() => JsonConvert.DeserializeObject<List<Recall>>(json));
+            
+            systemType ??= "";
+            systemType.Trim();
+
             recalls = recalls
-                .Where(x => x.SYSTEM_TYPE_ETXT.Equals(systemType, StringComparison.OrdinalIgnoreCase) || x.SYSTEM_TYPE_FTXT.Equals(systemType, StringComparison.OrdinalIgnoreCase))?
+                .Where(x => x.SYSTEM_TYPE_ETXT.Contains(systemType, StringComparison.OrdinalIgnoreCase) || x.SYSTEM_TYPE_FTXT.Contains(systemType, StringComparison.OrdinalIgnoreCase))?
                 .ToList();
 
-            return CreatedAtAction("GetRecallsFromSystemType", recalls);
+            return Ok(recalls);
+           
         }
 
          
