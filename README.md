@@ -7,7 +7,7 @@ Installation du Site web et de l'API 3 pour Windows IIS:
 3. Créer un répertoir ou le site sera hébergé
 4. Copier le contenu de \Release\netcoreapp3.1\publish au dossier créé au point 3
 5. Ouvrir IIS
-6. Créer un Application Pool nommé NetCore avec un ".NET CLR version" de "No Managed Code"
+6. Créer un Application Pool nommé NetCoreAPI3 avec un ".NET CLR version" de "No Managed Code"
 7. Changer les permissions du dossier créé au point 3 ajouter "IIS AppPool\NetCore" avec la permission Modify
 8. Créer un nouveau site ou ajouter un application à un site existant, donner un nom, pointer au dossier créé au point 3, puis choisir l'Application Pool créé au point 6
 9. Naviguer au nouveau site
