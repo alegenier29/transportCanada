@@ -13,7 +13,10 @@ Installation du Site web et de l'API 3 pour Windows IIS:
 9. Naviguer au nouveau site
 
 # Hébergement
-Hébergement https://thebro.net/API3/
+- Hébergement service web: https://thebro.net/API3/
+- Hébergement site web:  https://thebro.net/tc
+
+
 
 
 # Logiciels et versions requis
